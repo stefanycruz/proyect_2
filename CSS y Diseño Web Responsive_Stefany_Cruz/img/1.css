@@ -1,0 +1,41 @@
+header h1 {
+background:#5b7989;
+padding-left: 3px 10px;
+margin-bottom: 5px;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius:30px;
+webkit-border-radius:30px;
+text-align:left;
+color:white;
+text-shadow: 2px 2px  #02010a;
+}
+ navbar {
+		font-size: 1.143em;
+		height: 40px;
+		line-height: 30px;
+		margin: 0 auto 2em auto;
+		padding: 0;
+		text-align: center;
+		width: 800px;
+    background:hsl(0, 0%, 21%);
+	}
+
+	 navbar ul {list-style: none; margin: 0 auto; width: 800px;}
+	 navbar li {float: left; display: inline; margin: 0;}
+
+	 navbar a:link,  navbar a:visited {
+		display: inline-block;
+		height: 30px;
+		padding: 5px 1.5em;
+		text-decoration: none;
+    color: #fff;
+	}
+	 navbar a:hover,  navbar a:active{
+    background: hsl(200, 60%, 50%, 0.65);
+    text-shadow: none !important
+  }
+	 navbar .active a:link,  navbar .active a:visited {
+		text-shadow: none !important;
+    background: #3399cc;
+    color: #fff;
+	}
